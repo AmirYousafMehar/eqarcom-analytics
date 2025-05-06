@@ -1,0 +1,12 @@
+.scroll-container {
+    /* display: flex; */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera */
+  }
